@@ -1,0 +1,36 @@
+.avatar--profile{
+    top: calc(50% - 40px/2 - 376px) !important;
+}
+
+.logo-icon--header {
+    width: 52px !important;
+    height: 74px;
+}
+
+.image-circle .p-avatar{
+    width: 157px;
+    height: 157px;
+    box-shadow: -6px 0 0 5px #F9FFB5;
+    z-index: 1;
+    margin-top: -50px;
+    position: relative;
+}
+
+.gradient-circle .p-avatar{
+    background: linear-gradient(180deg, #50A97E 0%, #84E375 100%);
+    width: 42px;
+    height: 42px;
+    margin-top: 80px;
+    margin-left: 30px;
+    z-index: 2;
+    position: absolute;
+}
+
+// .yellow-circle .p-avatar{
+//     background-color: #F9FFB5;
+//     width: 165.91px;
+//     height: 165.91px;
+//     z-index: 1;
+// }
+
+

@@ -1,0 +1,73 @@
+.company_details {
+    display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
+
+.section--layout{
+	display: flex;
+    align-items: center;
+	justify-content: space-between;
+}
+
+.site_heading {
+	display: flex;
+    flex-direction: column;
+	padding: 0 10px;
+	align-items: center;
+}
+
+.site_heading .english {
+	font-style: normal;
+	font-weight: $l_weight;
+	font-size: $m_font;
+	line-height: 29px;
+	color: $xl_color;
+	display: flex;
+    justify-content: center;
+}
+
+.site_heading .sinhala {
+	font-style: normal;
+	font-weight: 5;
+	font-size: 19px;
+	line-height: 25px;
+	letter-spacing: 0.05em;
+	color: $tiber_color;
+	text-shadow: -0.5px -0.5px 0 $border_color, 0.5px -0.5px 0 $border_color, -0.5px 0.5px 0 $border_color, 0.5px 0.5px 0 $border_color;
+	display: flex;
+    justify-content: center;
+}
+
+.profile_details {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+	padding-left: 288px;
+}
+
+.profile_name{
+	font-style: normal;
+	font-weight: $s_weight;
+	font-size: 17px;
+	line-height: 105.02%;
+	color: $text_color;
+	padding-right: 10px;
+}
+
+.main-heading {
+	font-style: normal;
+	font-weight: $l_weight;
+	line-height: 105.02%;
+	color: $text_color;
+	font-size: $l_font;
+}
+
+.user-creation--heading{
+	padding: 50px 0 20px 0 !important;
+}
+
+.download-details--heading{
+	padding: 30px 0 20px 0 !important;
+}

@@ -1,0 +1,46 @@
+/* Footer ==================================================================================================================================== */
+
+.footer {
+    font-style: normal;
+    font-weight: $s_weight;
+    font-size: $footer_font;
+    line-height: 17px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: row;
+    background-color: $background_color;
+    box-shadow: 0px 5px 19px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text--section{
+    display: flex;
+}
+
+.text-field--row{
+    font-weight: $s_weight;
+    font-size: 15px;
+    line-height: 22px;
+    color: #495057;
+    padding-right: 18px;
+}
+
+.text-icon--section{
+    display: flex;
+    align-items: center;
+}
+
+.bottom-fixed--section{
+    padding-top: 50px;
+}
+
+.section-spacing{
+    padding-right: 60px;
+}

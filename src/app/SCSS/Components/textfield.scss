@@ -1,0 +1,66 @@
+/* Form ====================================================================================================================================== */
+
+.textfield--main-cantainer {
+	display: flex;
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 0px 5px 19px rgba(0, 0, 0, 0.06);
+}
+
+.textfield--sub-cantainer, .textfield--content-cantainer {
+	background-color: white;
+	border-radius: 8px;
+}
+
+// .content-cantainer--fieldone {
+// 	padding: 10px 0 0 0;
+// }
+
+.application {
+	border: hidden; 
+	display: block;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+hr {
+	border: 0.5px solid #D9D9D9;
+}
+
+.verticle-row--fieldrow{
+	display: flex;
+}
+
+hr{
+	border: 1px solid $hr_color;
+}
+
+.textfield--row {
+	padding: 8px 16px;
+	border-right: 2px solid $hr_color;
+	width: 430px;
+}
+
+.textfield--rownext {
+	padding: 8px 16px;
+	width: 430px;
+}
+
+.last-row--textfield{
+	padding-bottom: 8px;
+}
+
+.first-row--textfield{
+	padding-top: 8px;
+}
+
+.placeholder-text{
+	padding: 0;
+	width: 100%;
+}
+
+.placeholder--textlabel {
+    padding-top: 5px;
+}

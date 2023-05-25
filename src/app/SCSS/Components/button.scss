@@ -1,0 +1,37 @@
+/* Universal CSS ============================================================================================================================= */
+
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+/* Button ==================================================================================================================================== */
+
+.btn-container{
+    display: flex !important;
+    flex-direction: row-reverse;
+    padding: 20px 0;
+}
+
+.button-creation{
+	background: $lava_color !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 8px !important;
+  border: 8px $lava_color !important;
+  color: $background_color !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: $s_font !important;
+  line-height: 22px !important;
+  cursor: pointer !important;
+  padding: 10px 50px !important;
+  display: flex !important;
+  align-content: center;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+}
+
+.button-creation:hover{
+  background: $tiber_color !important;
+}

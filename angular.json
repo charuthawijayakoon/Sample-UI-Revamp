@@ -30,6 +30,10 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/primeicons/primeicons.css",
+              "./node_modules/primeng/resources/themes/luna-blue/theme.css",
+              "./node_modules/primeng/resources/primeng.min.css",
+              "src/app/SCSS/main.scss",
               "src/styles.scss"
             ],
             "scripts": []
@@ -100,5 +104,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "3b1c930f-0979-4c3e-81b5-4805538538cb"
   }
 }
