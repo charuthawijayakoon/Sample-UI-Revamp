@@ -9,12 +9,20 @@ import { AvatarModule } from 'primeng/avatar';
 import { ImageModule } from 'primeng/image';
 import { InputSwitchModule } from 'primeng/inputswitch';
 import { TooltipModule } from 'primeng/tooltip';
+import { DialogModule } from 'primeng/dialog';
+import { ConfirmDialogModule } from 'primeng/confirmdialog';
+// import {DialogModule, Dialog} from 'primeng/dialog'
 import { IndividualPrintFormComponent } from './individual-print-form/individual-print-form.component';
+import { ConfirmationLetterDownloadComponent } from './confirmation-letter-download/confirmation-letter-download.component';
+import { DialogDemoComponent } from './dialog-demo/dialog-demo.component';
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [
     AppComponent,
-    IndividualPrintFormComponent
+    IndividualPrintFormComponent,
+    ConfirmationLetterDownloadComponent,
+    DialogDemoComponent
   ],
   imports: [
     BrowserModule,
@@ -24,6 +32,10 @@ import { IndividualPrintFormComponent } from './individual-print-form/individual
     ImageModule,
     InputSwitchModule,
     TooltipModule,
+    DialogModule,
+    // Dialog,
+    ConfirmDialogModule,
+    BrowserAnimationsModule,
     
   ],
   providers: [],

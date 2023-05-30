@@ -13,10 +13,14 @@
 
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { IndividualPrintFormComponent } from './individual-print-form/individual-print-form.component';
+// import { IndividualPrintFormComponent } from './individual-print-form/individual-print-form.component';
+import { ConfirmationLetterDownloadComponent } from './confirmation-letter-download/confirmation-letter-download.component';
+// import { DialogDemoComponent } from './dialog-demo/dialog-demo.component';
 
 const routes: Routes = [
-  { path: 'individual', component: IndividualPrintFormComponent }
+  // { path: 'individual', component: IndividualPrintFormComponent }
+  { path: 'confirmation', component: ConfirmationLetterDownloadComponent }
+  // { path: 'dialog', component: DialogDemoComponent }
 ];
 
 @NgModule({

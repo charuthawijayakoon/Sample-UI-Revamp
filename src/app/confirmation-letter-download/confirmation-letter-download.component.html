@@ -1,0 +1,162 @@
+<div class="background--image col-12 grid" >
+    
+    <div class="container box col-8" mt-12>
+
+        <div class="col-12 section--layout">
+
+            <div class="col-6 company_details">
+                <img src="/assets/IMG/drplogo.png" class="col-1 logo-icon--header" />
+                <div class="col-10 site_heading">
+                    <h5 class="text-left english">Department for Registration of Person</h5>
+                    <h5 class="text-left sinhala">පුද්ගලයින් ලියාපදිංචි කිරීමේ දෙපාර්තමේන්තුව</h5>
+                </div>
+                <img src="/assets/IMG/lkemblem.png" class="col-1 logo-icon--header" />
+            </div>
+
+            <div class="col-6 profile_details">
+                <p-avatar class="col-2 avatar--profile" image="/assets/IMG/profile.jpg" styleClass="mr-2" size="normal" shape="circle"></p-avatar>
+                <h4 class="col-10 text-right profile_name">Charutha Wijayakoon</h4>
+            </div>
+
+        </div>
+
+        <div class="section--layout">
+            <div class="col-12 user-creation--heading">
+                <h4 class="text-right main-heading">Applicant Details</h4>
+            </div>
+        </div>
+
+        <div class="section--layout textfield--section">
+
+            <div class="col-12 textfield-section--containerleft">
+                
+                <div class="col-2 circle-section">
+                    <!-- <p-avatar class="yellow-circle" styleClass="mr-2" shape="circle"></p-avatar> -->
+                    <p-avatar class="gradient-circle" styleClass="mr-2" shape="circle"></p-avatar>
+                    <p-avatar class="image-circle" image="/assets/IMG/circlelogo.png" shape="circle"></p-avatar>
+                </div>
+
+                <div class="col-10 textfield--main-cantainer">
+
+                    <div class="col-12 textfield--sub-cantainer">
+
+                        <div class="col-12 verticle-row--fieldrow textfield--content-cantainer content-cantainer--fieldone first-row--textfield">
+                            <div class="col-12 textfield--row">
+                                <label>Application Number</label>
+                                <input class="application placeholder-text placeholder--textlabel" type="text" placeholder="Enter the Application Number" />   
+                            </div>
+                            <div class="col-12 textfield--rownext">
+                                <label>DRP Reference Number</label>
+                                <input class="application placeholder-text placeholder--textlabel" type="text" placeholder="Enter the DRP Reference Number" />   
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="col-12 verticle-row--fieldrow textfield--content-cantainer content-cantainer--fieldone">
+                            <div class="col-6 textfield--row">
+                                <label>Full Name</label>
+                                <input class="application placeholder-text placeholder--textlabel" type="text" placeholder="Enter the Full Name" />   
+                            </div>
+                            <div class="col-6 textfield--rownext">
+                                <label>NIC Number</label>
+                                <input class="application placeholder-text placeholder--textlabel" type="text" placeholder="Enter the NIC Number" />   
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="col-12 verticle-row--fieldrow textfield--content-cantainer content-cantainer--fieldone">
+                            <div class="col-6 textfield--row">
+                                <label>Address</label>
+                                <input class="application placeholder-text placeholder--textlabel" type="text" placeholder="Enter the Address" />   
+                            </div>
+                            <div class="col-6 textfield--rownext">
+                                <label>Gender</label>
+                                <input class="application placeholder-text placeholder--textlabel" type="text" placeholder="Enter the Gender" />   
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="col-12 verticle-row--fieldrow textfield--content-cantainer content-cantainer--fieldone last-row--textfield">
+                            <div class="col-6 textfield--row">
+                                <label>Date of Birth</label>
+                                <input class="application placeholder-text placeholder--textlabel" type="text" placeholder="Enter the Date of Birth" />   
+                            </div>
+                            <div class="col-6 textfield--rownext">
+                                <label>Birth Place</label>
+                                <input class="application placeholder-text placeholder--textlabel" type="text" placeholder="Enter the Birth Place" />   
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="section--layout">
+            <div class="col-12 download-details--heading">
+                <h4 class="text-right main-heading">Download Attempts Details</h4>
+            </div>
+        </div>
+
+        <div class="col-12 footer-section">
+            <div class="col-10 text--section">
+                <div class="col-6 text-icon--section section-spacing">
+                    <div class="text-field--row">Available Attempts Remaining</div>
+                    <div class="icon-field"><p-avatar label="3" styleClass="mr-2" [style]="{ 'background-color': '#D5F5C4', color: '#50A97E', border: '1px solid #50A97E' }" shape="circle"></p-avatar></div>
+                </div>
+                <div class="col-6 text-icon--section">
+                    <div class="text-field--row">Download Attempts So Far</div>
+                    <div class="icon-field"><p-avatar label="3" styleClass="mr-2" [style]="{ 'background-color': '#D5F5C4', color: '#50A97E', border: '1px solid #50A97E' }" shape="circle"></p-avatar></div>
+                </div>
+            </div>
+            <div class="col-2 btn-container card flex justify-content-center">
+                <button (click)="showDialog()" class="button-creation">View Details</button>
+                    <p-dialog [(visible)]="displayModal" class="popup-modal" [modal]="true" [draggable]="false">
+                        <!-- <ng-template pTemplate="header" class="popup-header">
+                            Confirmation Letter Download Details
+                        </ng-template> -->
+                            <div class="popup-header">Confirmation Letter Download Details</div>
+                            <div class="popup--number-section">
+                                <div class="number-section--text">Application Number</div>
+                                <div class="number-section--number">19VSC5245393</div>
+                            </div>
+                            <div class="popup-texticon--section">
+                                <div class="text-field--row">Number of Downloads :</div>
+                                <div class="icon-field"><p-avatar label="2" styleClass="mr-2" [style]="{ 'background-color': '#D5F5C4', color: '#50A97E', border: '1px solid #50A97E' }" shape="circle"></p-avatar></div>
+                            </div>
+                            <div class="popup-dashed-boxes">
+                                <div class="popup--box-container">
+                                    <div class="popup--box-icon">
+                                        <i class="pi pi-download"></i>
+                                    </div>
+                                    <div class="popup--box-date">13-08-2022</div>
+                                    <div class="popup--box-time">08.45 a.m.</div>
+                                </div>
+                                <div class="popup--box-container">
+                                    <div class="popup--box-icon">
+                                        <i class="pi pi-download"></i>
+                                    </div>
+                                    <div class="popup--box-date">12-08-2022</div>
+                                    <div class="popup--box-time">10.45 a.m.</div>
+                                </div>
+                            </div>
+                        <ng-template pTemplate="footer">
+                            <button (click)="displayModal=false" class="button-creation popup-button-ok">OK</button>
+                        </ng-template>
+                    </p-dialog>
+            </div>
+        </div>
+
+        <div class="col-12 bottom-fixed--section">
+            <footer class="text-center footer">Copyright © 2022 Department for Registration of Persons</footer>
+        </div>
+
+    </div>
+
+</div>
+

@@ -1,0 +1,122 @@
+.p-component-overlay {
+    background-color: rgba(0, 0, 0, 0.63) !important;
+}
+
+.p-dialog{
+    border: none !important;
+    border-radius: 8px !important;
+    width: 40vw !important;
+}
+
+.p-dialog-header {
+    background: rgba(255, 255, 255, 0.99) !important;
+    border: none !important;
+    font-style: normal !important;
+    font-weight: $l_weight !important;
+    font-size: $m_font !important;
+    color: $lava_color !important;
+    text-align: center !important;
+    border-top-right-radius: 8px !important;
+    border-top-left-radius: 8px !important;
+}
+
+.p-icon {
+    color: $text_color !important;
+}
+
+.p-dialog-content {
+    background: rgba(255, 255, 255, 0.99) !important;
+    padding: 0 4rem !important;
+}
+
+.p-dialog-footer {
+    background: rgba(255, 255, 255, 0.99) !important;
+    border-top: 0 !important;
+    border-bottom-right-radius: 8px !important;
+    border-bottom-left-radius: 8px !important;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px !important;
+    padding-bottom: 50px !important;
+    padding-left: 10vw !important;
+    padding-right: 10vw !important;
+}
+
+.popup-header{
+    font-style: normal;
+    font-weight: $l_weight;
+    font-size: $m_font;
+    line-height: 21px;
+    color: $lava_color;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.popup--number-section{
+    display: block;
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+.number-section--text{
+    // font-weight: 400;
+    // font-size: 18px;
+    // line-height: 17px;
+    color: #495057;
+    text-align: center;
+}
+
+.number-section--number{
+    top: calc(50% - 17px/2 - 110.5px);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 17px;
+    text-align: center;
+    color: #212529;
+}
+
+.popup-texticon--section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // padding: 1rem;
+}
+
+.popup--box-container {
+    justify-content: center !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    gap: 8px;
+    background: #E6FDDA;
+    border: 1px dashed #50A97E;
+    border-radius: 4px;
+    margin: 20px 20px 0 20px;
+}
+
+.pi-download{
+    color: $lava_color;
+}
+
+.popup--box-date{
+    font-weight: $s_weight;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: center;
+    color: $lava_color;
+}
+
+.popup--box-time{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: $text_color;
+}
+
+.popup-button-ok{
+    padding: 10px 170px !important;
+    margin: 0 !important;
+    // width: 360px !important;
+}
